@@ -42,10 +42,7 @@ export default function FooterComp() {
             <ul className="flex flex-wrap justify-center gap-6">
               {navLinks.map(({ label, href }) => (
                 <li key={href}>
-                  <a href={href} onClick={(e) => {
-                      e.preventDefault()
-                      document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })}} className="text-sm transition-colors"
-                    style={{ color: 'var(--color-ink-300)' }}>
+                  <a href={href} className="text-sm transition-colors">
                     {label}
                   </a>
                 </li>

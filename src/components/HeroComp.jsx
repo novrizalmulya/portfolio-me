@@ -31,7 +31,7 @@ export default function HeroComp() {
           </p>
 
           <div className="flex flex-wrap gap-4 mb-8">
-            <a href="#projects" onClick={(e) => { e.preventDefault(); document .getElementById("projects") ?.scrollIntoView({ behavior: "smooth" }); }}className="btn-primary">
+            <a href="#projects" className="btn-primary">
               View My Work
             </a>
             <a href="#contact" className="btn-outline">
